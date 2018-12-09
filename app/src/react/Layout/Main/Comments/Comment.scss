@@ -1,0 +1,29 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-decoration: none;
+    color: $color-black;
+    background-color: fade-out($color-main, 0.7);
+    margin-bottom: 10px;
+    padding: 5px;
+
+    &:nth-child(2n) {
+        background-color: fade-out($color-main, 0.3);
+    }
+
+    &-person {
+        font-weight: 500;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    &-text {
+        margin-bottom: 2px;
+    }
+
+    &-date {
+        font-weight: 300;
+        font-size: 12px;
+    }
+}

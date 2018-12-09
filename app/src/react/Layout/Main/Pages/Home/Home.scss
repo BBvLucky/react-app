@@ -1,0 +1,17 @@
+.main-home {
+    background-color: $color-white;
+    box-shadow: 5px 4px 24px -3px fade-out($color-black, 0.5);
+    padding: 15px;
+    width: 800px;
+    margin: 0 auto;
+
+    &-caption {
+        margin: 0 0 10px 0;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    &-text {
+        margin: 0 10px 15px 10px;
+    }
+}

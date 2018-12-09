@@ -1,0 +1,27 @@
+.main-aside-themes {
+    &-caption {
+        text-align: center;
+    }
+
+    &-list {
+        list-style-type: none;
+        padding: 0;
+
+        &-item-link {
+            display: block;
+            margin-bottom: 5px;
+            background-color: fade-out($color-secondary, 0.5);
+            padding: 10px;
+            text-decoration: none;
+            color: $color-black;
+
+            &:hover {
+                background-color: fade-out($color-secondary, 0.7);
+            }
+
+            &:active {
+                background-color: fade-out($color-secondary, 0.3);
+            }
+        }
+    }
+}

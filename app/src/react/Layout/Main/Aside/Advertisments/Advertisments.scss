@@ -1,0 +1,17 @@
+.main-aside-advertisments {
+    margin-bottom: 20px;
+
+    &-caption {
+        text-align: center;
+    }
+
+    &-item {
+        width: 300px;
+        height: 450px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: fade-out($color-secondary, 0.6);
+    }
+}

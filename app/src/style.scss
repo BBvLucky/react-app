@@ -1,0 +1,40 @@
+//global
+@import "main";
+
+//variables
+@import "vars";
+
+//page-container
+@import "../src/react/Layout/Page.scss";
+
+//header
+@import "../src/react/Layout/Header/Header.scss";
+@import "../src/react/Layout/Header/Menu/Menu.scss";
+@import "../src/react/Layout/Header/Login/Login.scss";
+@import "../src/react/Layout/Header/SimpleMenu/SimpleMenu.scss";
+
+//main
+@import "../src/react/Layout/Main/Main.scss";
+@import "../src/react/Layout/Main/Content/Content.scss";
+
+//comments components
+@import "../src/react/Layout/Main/Comments/Comments.scss";
+@import "../src/react/Layout/Main/Comments/Comment.scss";
+
+//main aside
+@import "../src/react/Layout/Main/Aside/Aside.scss";
+@import "../src/react/Layout/Main/Aside/Advertisments/Advertisments.scss";
+@import "../src/react/Layout/Main/Aside/Most-popular/MostPopular.scss";
+@import "../src/react/Layout/Main/Aside/Recommendations/Recommendations.scss";
+@import "../src/react/Layout/Main/Aside/Search/Search.scss";
+@import "../src/react/Layout/Main/Aside/Themes/Themes.scss";
+
+//main pages
+@import "../src/react/Layout/Main/Pages/Home/Home.scss";
+@import "../src/react/Layout/Main/Pages/Article/Article.scss";
+@import "../src/react/Layout/Main/Pages/Article/ArticleBody.scss";
+@import "../src/react/Layout/Main/Pages/Users/Users.scss";
+@import "../src/react/Layout/Main/Pages/CommentsPage/CommentsPage.scss";
+
+//footer
+@import "../src/react/Layout/Footer/Footer.scss";

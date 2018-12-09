@@ -1,0 +1,21 @@
+.main-aside-search {
+    display: flex;
+    justify-content: space-between;
+    background-color: darken($color-white, 1%);
+    border-radius: 20px;
+    border: 1px solid $color-secondary;
+    overflow: hidden;
+
+    &:hover {
+        border: 1px solid lighten($color-secondary, 30%);
+    }
+
+    &-field {
+        background: none;
+        outline: none;
+        border: none;
+        margin-left: 10px;
+        padding-left: 10px;
+        width: 273px;
+    }
+}
